@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body, html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #201f24;
+    color: #444;
+    /* margin-top: 100vh; */
+}
+
+a {
+    color: #08f;
+}
+
+#content {
+    position: absolute;
+    top: 0; 
+    width: 100%;
+    height: 100;
+    z-index: 1;
+    /* background-color: #201f24; */
+}
+
+#content * {
+    display: inline-block;
+    width: 0vw;
+    height: 100vh;
+}
+
+#c {
+    position: absolute;
+    background-color: #201f24;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
